@@ -14,7 +14,7 @@ public class DemoBootDockerApplication {
 	}
 	@GetMapping("/")
 	public String sayHello(){
-		return "Hello Spring boot Docker";
+		return "Hello Spring boot Skaffold with Jib	";
 	}
 
 
